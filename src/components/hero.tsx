@@ -27,7 +27,7 @@ export default function Hero() {
             Hubungi Saya
           </a>
           <a 
-            href="/CV_lingga_update.pdf" 
+            href="/CV_Lingga-Nugraha-Mandajaya.pdf" 
             download="CV_Lingga_Nugraha_Mandajaya.pdf"
             className="px-8 py-3 bg-yellow-400 text-teal-900 rounded-lg font-bold hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-xl flex items-center gap-2"
           >
