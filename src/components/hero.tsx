@@ -12,11 +12,11 @@ export default function Hero() {
           Fresh Graduate Teknik Komputer | IoT, Machine Learning , It Support & web builder
         </p>
         <p className="text-base md:text-lg text-teal-100 mb-8 leading-relaxed max-w-2xl mx-auto">
-          Lulusan S1 Teknik Komputer dari Universitas Amikom Yogyakarta (IPK 3.3) dengan spesialisasi pada sistem 
-          <span className="font-bold text-yellow-200"> Internet of Things (IoT), Machine Learning</span>, dan 
-          infrastruktur jaringan. Memiliki pengalaman kerja nyata dalam pemeliharaan hardware di ACS Computer serta 
-          analisis data media di PT Media Monitoring Indonesia. Terampil dalam merancang solusi berbasis mikrokontroler, 
-          membangun model prediksi, serta memegang sertifikasi internasional dari Cisco Networking Academy.
+          Lulusan S1 Teknik Komputer dari Universitas Amikom Yogyakarta (IPK 3.3) dengan portofolio proyek 
+          <span className="font-bold text-yellow-200"> Web Development, Data Science, dan IoT</span>. Berpengalaman membangun 
+          CMS Dashboard untuk digital signage, Sistem Pendukung Keputusan menggunakan metode AHP, model Machine Learning 
+          untuk prediksi harga saham, serta sistem monitoring kualitas udara berbasis ESP32. Terampil dalam pengembangan 
+          full-stack web, analisis data, dan implementasi solusi IoT end-to-end.
         </p>
         
         <div className="flex gap-4 justify-center flex-wrap">
