@@ -9,14 +9,14 @@ export default function Hero() {
           Hi, Saya <span className="text-yellow-300">Lingga Nugraha Mandajaya</span>
         </h1>
         <p className="text-xl md:text-2xl text-teal-50 mb-6 font-semibold">
-          Fresh Graduate Teknik Komputer | IoT, Machine Learning & web developer 
+          Fresh Graduate Teknik Komputer | IoT, Machine Learning , It Support & web builder
         </p>
         <p className="text-base md:text-lg text-teal-100 mb-8 leading-relaxed max-w-2xl mx-auto">
-          Lulusan S1 Teknik Komputer (IPK 3.3) dari Universitas Amikom Yogyakarta dengan spesialisasi pada sistem 
+          Lulusan S1 Teknik Komputer dari Universitas Amikom Yogyakarta (IPK 3.3) dengan spesialisasi pada sistem 
           <span className="font-bold text-yellow-200"> Internet of Things (IoT), Machine Learning</span>, dan 
-          infrastruktur jaringan. Memiliki pengalaman praktis dalam pengembangan sistem embedded, analisis data, 
-          serta pemeliharaan hardware/software. Memegang sertifikasi Cisco CCNA & IT Essentials. 
-          Siap berkontribusi dalam membangun solusi teknologi yang inovatif, efisien, dan berdampak.
+          infrastruktur jaringan. Memiliki pengalaman kerja nyata dalam pemeliharaan hardware di ACS Computer serta 
+          analisis data media di PT Media Monitoring Indonesia. Terampil dalam merancang solusi berbasis mikrokontroler, 
+          membangun model prediksi, serta memegang sertifikasi internasional dari Cisco Networking Academy.
         </p>
         
         <div className="flex gap-4 justify-center flex-wrap">
@@ -27,11 +27,11 @@ export default function Hero() {
             Hubungi Saya
           </a>
           <a 
-            href="/CV_Lingga-Nugraha-Mandajaya.pdf" 
-            download="CV_Lingga_Nugraha_Mandajaya.pdf"
+            href="/CV-Lingga-Nugraha-Mandajaya.pdf" 
+            download="CV-Lingga-Nugraha-Mandajaya.pdf"
             className="px-8 py-3 bg-yellow-400 text-teal-900 rounded-lg font-bold hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-xl flex items-center gap-2"
           >
-            <span></span>
+            <span>📄</span>
             <span>Download CV</span>
           </a>
         </div>
