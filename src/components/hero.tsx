@@ -9,7 +9,7 @@ export default function Hero() {
           Hi, Saya <span className="text-yellow-300">Lingga Nugraha Mandajaya</span>
         </h1>
         <p className="text-xl md:text-2xl text-teal-50 mb-6 font-semibold">
-          Fresh Graduate Teknik Komputer | IoT, Machine Learning & IT Professional
+          Fresh Graduate Teknik Komputer | IoT, Machine Learning & web developer 
         </p>
         <p className="text-base md:text-lg text-teal-100 mb-8 leading-relaxed max-w-2xl mx-auto">
           Lulusan S1 Teknik Komputer (IPK 3.3) dari Universitas Amikom Yogyakarta dengan spesialisasi pada sistem 
