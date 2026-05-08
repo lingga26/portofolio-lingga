@@ -1,6 +1,6 @@
 import React from 'react';
 
-//  1. DATA MANUAL (Tanpa GitHub API)
+// ✅ DATA PROYEK MANUAL (Tidak perlu GitHub API)
 const projects = [
   {
     id: 1,
@@ -40,7 +40,7 @@ const projects = [
   }
 ];
 
-//  2. TEMA WARNA (Sesuai Kategori)
+// ✅ TEMA WARNA
 const getTheme = (category: string) => {
   switch (category) {
     case "Web Dev": return { gradient: "from-blue-500 to-cyan-400", border: "border-blue-200", bg: "bg-blue-50", text: "text-blue-600", badge: "🌐" };
@@ -50,7 +50,7 @@ const getTheme = (category: string) => {
   }
 };
 
-// 🚀 3. KOMPONEN UTAMA
+// ✅ KOMPONEN UTAMA
 export default function Projects() {
   return (
     <section id="projects" className="py-20 px-4 bg-gradient-to-b from-slate-100 via-gray-50 to-white">
@@ -73,27 +73,22 @@ export default function Projects() {
                 key={project.id}
                 className={`group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border-2 ${theme.border} hover:scale-105`}
               >
-                {/* Header Bar Gradient */}
                 <div className={`h-2 bg-gradient-to-r ${theme.gradient}`} />
                 
                 <div className="p-6">
-                  {/* Badge Kategori */}
                   <div className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold ${theme.bg} text-gray-700 mb-4`}>
                     <span>{theme.badge}</span>
                     <span>{project.category}</span>
                   </div>
 
-                  {/* Judul Proyek */}
                   <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                     {project.name}
                   </h3>
 
-                  {/* Deskripsi */}
                   <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                     {project.description}
                   </p>
 
-                  {/* Tech Tags */}
                   <div className="flex flex-wrap gap-2 mb-5">
                     {project.tags.map((tag) => (
                       <span
@@ -105,7 +100,6 @@ export default function Projects() {
                     ))}
                   </div>
 
-                  {/* Tombol Aksi */}
                   <div className="flex gap-3 pt-4 border-t border-gray-100">
                     <a
                       href={project.demoUrl}
@@ -113,7 +107,7 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className={`flex-1 flex items-center justify-center gap-2 px-4 py-2.5 bg-gradient-to-r ${theme.gradient} text-white rounded-lg font-medium hover:opacity-90 transition-all transform hover:scale-105`}
                     >
-                      <span>🔗</span>
+                      <span></span>
                       <span>Live Demo</span>
                     </a>
                     <a
