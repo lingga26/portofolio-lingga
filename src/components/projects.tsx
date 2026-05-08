@@ -1,4 +1,4 @@
-import React from 'react';
+// ✅ TIDAK PERLU import React - Vite sudah handle JSX otomatis
 
 const projects = [
   {
@@ -41,7 +41,7 @@ const projects = [
 
 const getTheme = (category: string) => {
   switch (category) {
-    case "Web Dev": return { gradient: "from-blue-500 to-cyan-400", border: "border-blue-200", bg: "bg-blue-50", badge: "🌐" };
+    case "Web Dev": return { gradient: "from-blue-500 to-cyan-400", border: "border-blue-200", bg: "bg-blue-50", badge: "" };
     case "Data Science": return { gradient: "from-purple-500 to-pink-400", border: "border-purple-200", bg: "bg-purple-50", badge: "" };
     case "IoT": return { gradient: "from-green-500 to-emerald-400", border: "border-green-200", bg: "bg-green-50", badge: "📡" };
     default: return { gradient: "from-gray-500 to-gray-400", border: "border-gray-200", bg: "bg-gray-50", badge: "💻" };
